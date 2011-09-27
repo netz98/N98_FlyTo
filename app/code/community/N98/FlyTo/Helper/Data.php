@@ -1,3 +1,5 @@
+<?php
+
 /**
  * netz98 FlyTo magento module
  *
@@ -33,62 +35,6 @@
  * @package N98_FlyTo
  */
 
-/*
- * Animates the product image flying to (for example) the cart.
- * Must be called on the target.
- */
-(function($){
-    $.fn.flyTo = function(options){
-        var defaults = {
-            'box'           : '.product-image-zoom',
-            'opacity'       : '0.5',
-            'duration'      : 4500,
-            'targetHeight'    : '20px',
-            'targetWidth'     : '20px'
-        };
-
-        var options = $.extend(true, defaults, options);
-
-        var box = null;
-        var flyer = null;
-        var image = null;
-
-        // initialize
-        function init(){
-            box = jQuery(options.box);
-
-            var srcImage = $("#image",box);
-            srcImageUrl = srcImage.attr("src");
-            var html =
-                '<img style="display: none; position: absolute; top: 0px; left: 0px; z-index: 99999" id="n98flyto_image" src="' + srcImageUrl + '" alt="Flyer" title="Flyer" />';
-            $('body').append(html);
-
-            image = jQuery("#n98flyto_image");
-            image.width( box.css("width") );
-            image.height( box.css("height") );
-            image.css("top", box.offset().top );
-            image.css("left", box.offset().left );
-            image.css("opacity",options.opacity);
-            image.show();
-        }
-
-        init();
-
-        return this.each(function(){
-            source = box.offset();
-            target = $(this).offset();
-            image.animate(
-                { top: target.top,
-                  left: target.left,
-                  width: options.targetWidth,
-                  height: options.targetHeight
-                },
-                options.duration,
-                "swing",
-                function() {
-                    image.hide();
-                }
-            );
-        });
-    }
-})(jQuery);
+class N98_FlyTo_Helper_Data extends Mage_Core_Helper_Abstract
+{
+}

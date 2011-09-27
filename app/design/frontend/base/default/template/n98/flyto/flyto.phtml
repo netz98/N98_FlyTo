@@ -5,7 +5,7 @@
     jQuery(document).ready(function(){
         jQuery(".btn-cart").click(
             function(){
-                jQuery(".block-cart").flyTo( { box: ".product-image-zoom" } );
+                jQuery("<?php echo $this->getDestinationBlock(); ?>").flyTo(<?php echo json_encode($this->getConfig()); ?>);
             }
         )
     });

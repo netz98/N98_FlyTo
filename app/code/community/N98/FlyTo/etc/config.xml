@@ -44,4 +44,57 @@ This software is provided by the netz98 new media GmbH without any express or im
             </updates>
         </layout>
     </frontend>
+    <global>
+        <blocks>
+            <n98flyto>
+                <class>N98_FlyTo_Block</class>
+            </n98flyto>
+        </blocks>
+        <helpers>
+            <n98flyto>
+                <class>N98_FlyTo_Helper</class>
+            </n98flyto>
+        </helpers>
+    </global>
+    <default>
+        <n98flyto>
+            <animation>
+                <duration>4500</duration>
+                <opacity>0.5</opacity>
+                <target>.block-cart</target>
+                <targetWidth>10px</targetWidth>
+                <targetHeight>10px</targetHeight>
+            </animation>
+        </n98flyto>
+    </default>
+    <adminhtml>
+        <translate>
+            <modules>
+                <N98_FlyTo>
+                    <files>
+                        <default>N98_FlyTo.csv</default>
+                    </files>
+                </N98_FlyTo>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <n98flyto>
+                                            <title>n98 FlyTo Section</title>
+                                        </n98flyto>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>

@@ -1,0 +1,9 @@
+"Animation","Animation"
+"Duration (in milliseconds)","Dauer (in Millisekunden)"
+"Should be as long as it takes to load the cart page.","Sollte solange gewählt sein wie es dauert die Einkaufswagenseite zu laden."
+"CSS selector of the target element.","CSS Selektor des Ziel Elements".
+"Opacity","Deckkraft"
+"0 = invisible, 0.5 = half transparent, 1 = fully visible","0 = nicht sichtbar, 0.5 = halb transparent, 1 = voll deckend"
+"Target element","Ziel Element"
+"Width of the target as CSS dimension","Breite des Ziel Elements als CSS Größenangabe"
+"Height of the target as CSS dimension","Höhe des Ziel Elements als CSS Größenangabe"
