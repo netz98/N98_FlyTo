@@ -1,0 +1,12 @@
+<?php
+    $_product = $this->getProduct();
+?>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery(".btn-cart").click(
+            function(){
+                jQuery(".block-cart").flyTo( { box: ".product-image-zoom" } );
+            }
+        )
+    });
+</script>
