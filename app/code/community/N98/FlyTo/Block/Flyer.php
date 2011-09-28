@@ -40,6 +40,8 @@ class N98_FlyTo_Block_Flyer extends Mage_Core_Block_Template
 
     /**
      * Retrieves the configuration
+     *
+     * @return array
      */
     public function getConfig()
     {
@@ -55,9 +57,12 @@ class N98_FlyTo_Block_Flyer extends Mage_Core_Block_Template
     }
 
     /**
-     * Retries the CSS selector of the target
+     * Retrieves the CSS selector of the target
+     *
+     * @return string
      */
-    function getDestinationBlock() {
+    function getDestinationBlock()
+    {
         return Mage::getStoreConfig('n98flyto/animation/target');
     }
     
