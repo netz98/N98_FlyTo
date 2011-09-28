@@ -11,7 +11,7 @@
  * @copyright Copyright (c) 2011 netz98 new media GmbH (http://www.netz98.de)
  * @author netz98 new media GmbH <info@netz98.de>
  * @category N98
- * @package N98_Social
+ * @package N98_FlyTo
  */
 
 class N98_FlyTo_ModuleLoadsTest extends PHPUnit_Framework_TestCase
