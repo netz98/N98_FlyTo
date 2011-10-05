@@ -40,7 +40,7 @@
 (function($){
     $.fn.flyTo = function(options){
         var defaults = {
-            'box'           : '.product-image-zoom',
+            'box'           : '.product-image',
             'opacity'       : '0.5',
             'duration'      : 4500,
             'targetHeight'    : '20px',
@@ -55,15 +55,16 @@
 
         // initialize
         function init(){
-            box = jQuery(options.box);
+            box = $(options.box);
 
-            var srcImage = $("#image",box);
+            var srcImage = $("img",box);
+
             srcImageUrl = srcImage.attr("src");
             var html =
                 '<img style="display: none; position: absolute; top: 0px; left: 0px; z-index: 99999" id="n98flyto_image" src="' + srcImageUrl + '" alt="Flyer" title="Flyer" />';
             $('body').append(html);
 
-            image = jQuery("#n98flyto_image");
+            image = $("#n98flyto_image");
             image.width( box.css("width") );
             image.height( box.css("height") );
             image.css("top", box.offset().top );
