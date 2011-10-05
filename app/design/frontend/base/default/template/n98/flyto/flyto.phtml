@@ -5,7 +5,11 @@
     jQuery(document).ready(function(){
         jQuery(".btn-cart").click(
             function(){
-                jQuery("<?php echo $this->getDestinationBlock(); ?>").flyTo(<?php echo json_encode($this->getConfig()); ?>);
+                validationResult = productAddToCartForm.validator.validate();
+
+                if (validationResult) {
+                    jQuery("<?php echo $this->getDestinationBlock(); ?>").flyTo(<?php echo json_encode($this->getConfig()); ?>);
+                }
             }
         )
     });
