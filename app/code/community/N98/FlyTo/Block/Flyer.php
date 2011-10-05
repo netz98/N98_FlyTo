@@ -34,7 +34,6 @@
  * @category N98
  * @package N98_FlyTo
  */
-
 class N98_FlyTo_Block_Flyer extends Mage_Core_Block_Template
 {
 
@@ -65,5 +64,5 @@ class N98_FlyTo_Block_Flyer extends Mage_Core_Block_Template
     {
         return Mage::getStoreConfig('n98flyto/animation/target');
     }
-    
+
 }
