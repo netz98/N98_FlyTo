@@ -12,9 +12,10 @@
         <N98_FlyTo>
             <active>true</active>
             <codePool>community</codePool>
-             <depends>
-                <Mage_Page />
-                <N98_JQuery />
+            <depends>
+                <Mage_Page/>
+                <N98_Base />
+                <N98_JQuery/>
             </depends>
         </N98_FlyTo>
     </modules>

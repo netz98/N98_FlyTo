@@ -30,12 +30,6 @@ This software is provided by the netz98 new media GmbH without any express or im
 @author     netz98 new media GmbH
 -->
 <config>
-    <tabs>
-        <n98 translate="label" module="n98social">
-            <label>n98</label>
-            <sort_order>1000000</sort_order>
-        </n98>
-    </tabs>
     <sections>
         <n98flyto translate="label" module="n98flyto">
             <label>FlyTo</label>

@@ -1,0 +1,6 @@
+app/etc/modules/N98_FlyTo.xml                               app/etc/modules/N98_Flyto.xml
+app/code/community/N98/FlyTo                                app/code/community/N98/FlyTo
+app/design/frontend/base/default/layout/n98/flyto.xml       app/design/frontend/base/default/layout/n98/flyto.xml
+app/design/frontend/base/default/template/n98/flyto         app/design/frontend/base/default/template/n98/flyto
+js/n98/jquery/jquery.n98flyto.js                            js/n98/jquery/jquery.n98flyto.js
+app/locale/de_DE/N98_FlyTo.csv                              app/locale/de_DE/N98_FlyTo.csv
