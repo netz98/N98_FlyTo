@@ -15,7 +15,7 @@
             <depends>
                 <Mage_Page/>
                 <N98_Base />
-                <N98_JQuery/>
+                <N98_BaseJQuery/>
             </depends>
         </N98_FlyTo>
     </modules>
