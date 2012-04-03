@@ -1,0 +1,34 @@
+h1. N98_FlyTo Magento Module
+
+Adds a flying animation when a user adds a product to the cart.
+
+h2. Functionality
+
+The module adds a custom javascript that hooks into the function to add a product in the cart.
+When the users adds a product to the cart, a translucent copy of the product image moves from its original postion to the cart sidebar.
+
+h2. Planned Functionality
+
+It is planned to also add an animation for adding products to the wishlist.
+
+h2. Installation
+
+First you have to install the module "N98_BaseJQuery":https://github.com/netz98/N98_BaseJQuery.
+
+Copy all the files in your Magento root folder or use "modman":https://github.com/colinmollenhour/modman for installation.
+After installation, clear your Magento cache.
+
+h2. Configuration
+
+No configuration is needed.
+
+h2. Compatibility
+
+The module was successfully tested in the following Magento versions:
+
+* CE 1.4
+* CE 1.6.0
+* CE 1.6.2
+* EE 1.11
+
+
