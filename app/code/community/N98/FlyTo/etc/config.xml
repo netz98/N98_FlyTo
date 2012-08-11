@@ -31,9 +31,9 @@ This software is provided by the netz98 new media GmbH without any express or im
 -->
 <config>
     <modules>
-        <N98_Social>
+        <N98_FlyTo>
             <version>1.0.0</version>
-        </N98_Social>
+        </N98_FlyTo>
     </modules>
     <frontend>
         <layout>
