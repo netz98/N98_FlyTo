@@ -1,0 +1,16 @@
+{
+    "name": "n98/N98_FlyTo",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Adds a flying animation when a user adds a product to the cart.",
+    "homepage": "https://github.com/netz98/N98_FlyTo",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "dev-master"
+    },
+    "authors":[
+        {
+            "name":"netz98 new media GmbH",
+            "email":"magento@netz98.de"
+        }
+    ]
+}
