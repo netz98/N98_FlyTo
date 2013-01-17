@@ -5,7 +5,7 @@
     "description": "Adds a flying animation when a user adds a product to the cart.",
     "homepage": "https://github.com/netz98/N98_FlyTo",
     "require": {
-        "magento-hackathon/magento-composer-installer": "dev-master",
+        "magento-hackathon/magento-composer-installer": "*",
         "n98/N98_Base": "dev-master",
         "n98/N98_BaseJQuery": "dev-master"
     },
